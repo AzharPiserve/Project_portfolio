@@ -5,9 +5,9 @@ import "./assets/img/favicon.png";
 import "./assets/img/apple-touch-icon.png";
 import "./assets/vendor/aos/aos.css";
 import "./assets/vendor/bootstrap/css/bootstrap.min.css";
-import "./assets/vendor/boxicons/css/boxicons.min.css"
-import "./assets/vendor/glightbox/css/glightbox.min.css"
-import "./assets/vendor/swiper/swiper-bundle.min.css"
+import "./assets/vendor/boxicons/css/boxicons.min.css";
+import "./assets/vendor/glightbox/css/glightbox.min.css";
+import "./assets/vendor/swiper/swiper-bundle.min.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,8 +26,8 @@ function App() {
         <header id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <img src="./assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
-              <h1 className="text-light"><a href="index.html">Alex Smith</a></h1>
+              <img src="https://media.licdn.com/dms/image/D5603AQGgid6ahjlT5w/profile-displayphoto-shrink_800_800/0/1674711195954?e=2147483647&v=beta&t=9wAwPNo3ZmDRNsdFg6HJ90STAvozAmqQPhN7g0VQhWE" alt="" className="img-fluid rounded-circle" />
+              <h1 className="text-light"><a href="index.html">Azhar KS</a></h1>
               <div className="social-links mt-3 text-center">
                 <a href="#" className="twitter"><i className="bx bxl-twitter" /></a>
                 <a href="#" className="facebook"><i className="bx bxl-facebook" /></a>
@@ -51,8 +51,8 @@ function App() {
         {/* ======= Hero Section ======= */}
         <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
           <div className="hero-container" data-aos="fade-in">
-            <h1>Alex Smith</h1>
-            <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer" /></p>
+            <h1>Azhar KS</h1>
+            <p>I'm <span className="typed"/>Software engineer</p>
           </div>
         </section>{/* End Hero */}
         <main id="main">
@@ -65,10 +65,10 @@ function App() {
               </div>
               <div className="row">
                 <div className="col-lg-4" data-aos="fade-right">
-                  <img src="././assets/img/profile-img.jpg" className="img-fluid" alt="" />
+                  <img src="https://media.licdn.com/dms/image/D5603AQGgid6ahjlT5w/profile-displayphoto-shrink_800_800/0/1674711195954?e=2147483647&v=beta&t=9wAwPNo3ZmDRNsdFg6HJ90STAvozAmqQPhN7g0VQhWE" className="img-fluid" alt="progj" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                  <h3>UI/UX Designer &amp; Web Developer.</h3>
+                  <h3>SOFTWARE ENGINEER.</h3>
                   <p className="fst-italic">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
@@ -76,15 +76,15 @@ function App() {
                   <div className="row">
                     <div className="col-lg-6">
                       <ul>
-                        <li><i className="bi bi-chevron-right" /> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                        <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span>www.example.com</span></li>
+                        <li><i className="bi bi-chevron-right" /> <strong>Birthday:</strong> <span>26-08-2001</span></li>
+                        <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span>azhar@gmail.com</span></li>
                         <li><i className="bi bi-chevron-right" /> <strong>Phone:</strong> <span>+123 456 7890</span></li>
                         <li><i className="bi bi-chevron-right" /> <strong>City:</strong> <span>New York, USA</span></li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <ul>
-                        <li><i className="bi bi-chevron-right" /> <strong>Age:</strong> <span>30</span></li>
+                        <li><i className="bi bi-chevron-right" /> <strong>Age:</strong> <span>22</span></li>
                         <li><i className="bi bi-chevron-right" /> <strong>Degree:</strong> <span>Master</span></li>
                         <li><i className="bi bi-chevron-right" /> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
                         <li><i className="bi bi-chevron-right" /> <strong>Freelance:</strong> <span>Available</span></li>
@@ -200,7 +200,7 @@ function App() {
                 <div className="col-lg-6" data-aos="fade-up">
                   <h3 className="resume-title">Sumary</h3>
                   <div className="resume-item pb-0">
-                    <h4>Alex Smith</h4>
+                    <h4>Azhar KS</h4>
                     <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                     <ul>
                       <li>Portland par 127,Orlando, FL</li>
@@ -534,27 +534,11 @@ function App() {
               © Copyright <strong><span>iPortfolio</span></strong>
             </div>
             <div className="credits">
-              {/* All the links in the footer should remain intact. */}
-              {/* You can delete the links only if you purchased the pro version. */}
-              {/* Licensing information: https://bootstrapmade.com/license/ */}
-              {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ */}
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://bootstrapmade.com/">@azhar</a>
             </div>
           </div>
         </footer>{/* End  Footer */}
         <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a>
-        {/* Vendor JS Files */}
-        <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="./assets/vendor/aos/aos.js"></script>
-        <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="./assets/vendor/typed.js/typed.min.js"></script>
-        <script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
-        <script src="./assets/vendor/php-email-form/validate.js"></script>
-        {/* Template Main JS File */}
-        <script src="./assets/js/main.js"></script>
       </div>
     </div>
   );
